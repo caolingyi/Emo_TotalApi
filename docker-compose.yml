@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  emo.api:
+    image: ${DOCKER_REGISTRY-}emoapi
+    build:
+      context: .
+      dockerfile: Emo.Api/Dockerfile
+
+  emo.openapi:
+    image: ${DOCKER_REGISTRY-}emoopenapi
+    build:
+      context: .
+      dockerfile: Emo.OpenApi/Dockerfile
+

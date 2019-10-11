@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emo.Api", "Emo.Api\Emo.Api.csproj", "{D3E96195-7A09-4275-81DF-2E124106ED4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emo.OpenApi", "Emo.OpenApi\Emo.OpenApi.csproj", "{D17107C1-6882-4BF7-A3E9-86F7E5B7570E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C6E40D20-AB34-449C-8B05-CFEC88C7E3FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3E96195-7A09-4275-81DF-2E124106ED4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E96195-7A09-4275-81DF-2E124106ED4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E96195-7A09-4275-81DF-2E124106ED4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E96195-7A09-4275-81DF-2E124106ED4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17107C1-6882-4BF7-A3E9-86F7E5B7570E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17107C1-6882-4BF7-A3E9-86F7E5B7570E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17107C1-6882-4BF7-A3E9-86F7E5B7570E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17107C1-6882-4BF7-A3E9-86F7E5B7570E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E40D20-AB34-449C-8B05-CFEC88C7E3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E40D20-AB34-449C-8B05-CFEC88C7E3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E40D20-AB34-449C-8B05-CFEC88C7E3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E40D20-AB34-449C-8B05-CFEC88C7E3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E64FAFDF-1E61-4953-BCBA-220E04723531}
+	EndGlobalSection
+EndGlobal
