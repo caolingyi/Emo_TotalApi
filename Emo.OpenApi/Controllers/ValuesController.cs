@@ -14,7 +14,7 @@ namespace Emo.OpenApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "v1", "emo.openapi" };
+            return new string[] { "v1", "emo.openapi++" };
         }
 
         // GET api/values/5
